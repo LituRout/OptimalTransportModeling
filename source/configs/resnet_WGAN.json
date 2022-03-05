@@ -5,7 +5,7 @@
   "netG": "resnet",
   "netD": "resnet",
   "conditional": false,
-  "nz": 128,
+  "nz": 192,
   "ngf": 128,
   "ndf": 128,
   "nc": 3,
@@ -20,10 +20,11 @@
   "projection_dim": 128,
   "conditioning": "concat",
   "regularization": "gradient_penalty",
-  "gp_lamb": 10,
+  "go_lamb": 10,
   "ortho_strength": 0.0001,
 
-  "disc_iters": 5,
+  "gen_iters": 5,
+  "disc_iters": 1,  
   "loss": "wasserstein",
 
   "batchSize": 64,
