@@ -26,7 +26,7 @@ Execute the following commands in the `source` folder.
 
 **Training**
 
-- `python otm_mnist_32x22.py --train 1` -- OTM between noise and **MNIST**, 28x28, Grayscale;
+- `python otm_mnist_32x22.py --train 1` -- OTM between noise and **MNIST**, 32x32, Grayscale;
 - `python otm_cifar_32x32.py --train 1` -- OTM between noise and **CIFAR10**, 32x32, RGB;
 - `python otm_celeba_64x64.py --train 1` -- OTM between noise and **CelebA**, 64x64, RGB;
 - `python otm_celeba_denoise_64x64.py --train 1` -- OTM for unpaired denoising on **CelebA**, 64x64, RGB;
